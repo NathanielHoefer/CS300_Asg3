@@ -1,0 +1,57 @@
+/*****************************************************************************/
+/* Program 3 - Node Class Creation											 */
+/*****************************************************************************
+    Author: Nathaniel Hoefer
+    Student ID: X529U639
+    Program: #3
+
+
+Description of the Problem:
+	This program is going to define a preparatory class that you will be using 
+	for linked list.  You are going to write this class and use it so that you 
+	will be ready to use it for the linked list class.  The class is going to 
+	be the Node class.
+
+
+Class Name: Node
+	The inventory class contains only the members associated with the inventory
+	which are part number, item, quantity, price, and total cost.
+
+Data:		
+			- (string) mBookTitle: The title of a book
+			- (string) mAuthor: The author of the book
+			- (int) mDateRead: contains numerical value of the date in the 
+				format of MMDDYYYY
+			- (Node) *mNextNode: Pointer to next node in list
+
+Constructors:	
+			+ Node() - Sets the value to default
+			+ Node(string title, string author, int date): creates node with the
+				arguments passed
+				
+Mutator Functions:
+			+ setPointer
+			
+Accessor Functions:
+			+ getPointer
+			+ getBookTitle
+			+ getAuthor
+			
+Functions:
+			+ CompareData(string title) - compare a given book title against the
+				one in the class.
+				Input Parms: string title - The title to be compared
+				Output Parms: returns numeric value depending on the 
+					lexigraphic ordering
+				Returns: (int) -1 if title < mBookTitle, 0 if title == mBookTitle,
+					1 if title > mBookTitle.
+				> Compare string and return value based on result
+				
+			+ ProcessData() - Print the data to the screen
+				Input Parms: None
+				Output Parms: Data printed to screen
+				> Print title
+				> Print author
+				> Print formatted date
+				
+*/
