@@ -42,6 +42,7 @@ Node::Node(string title, string author, string date)
 // METHODS ********************************************************************
 
 
+// Compare a given book title against the one in the class.
 int Node::CompareData(string title)
 {
 	return mBookTitle.compare(title);
@@ -51,6 +52,7 @@ int Node::CompareData(string title)
 /*****************************************************************************/
 
 
+// Print the data to the screen
 void Node::ProcessData()
 {
 

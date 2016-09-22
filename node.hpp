@@ -6,13 +6,6 @@
     Program: #3
 
 
-Description of the Problem:
-	This program is going to define a preparatory class that you will be using
-	for linked list.  You are going to write this class and use it so that you
-	will be ready to use it for the linked list class.  The class is going to
-	be the Node class.
-
-
 Class Name: Node
 	The inventory class contains only the members associated with the inventory
 	which are part number, item, quantity, price, and total cost.
@@ -41,6 +34,7 @@ Accessor Functions:
 Functions:
 	+ CompareData(string title) - compare a given book title against the
 		one in the class.
+
 		Input Parms: string title - The title to be compared
 		Output Parms: returns numeric value depending on the
 			lexigraphic ordering
@@ -49,6 +43,7 @@ Functions:
 		> Compare string and return value based on result
 
 	+ ProcessData() - Print the data to the screen
+
 		Input Parms: None
 		Output Parms: Data printed to screen
 		> Format Date
@@ -110,7 +105,6 @@ class Node
 //	- Input Parms: None
 //	- Output Parms: Data printed to screen
 	void ProcessData();
-
 
 
 };
